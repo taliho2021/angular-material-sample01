@@ -6,6 +6,7 @@ import { MatListModule } from '@angular/material/list';
 import {MatRadioModule} from '@angular/material/radio';
 import {MatSelectModule} from '@angular/material/select';
 import  { MatSidenavModule } from '@angular/material/sidenav';
+import {MatStepperModule} from '@angular/material/stepper';
 import { MatTableModule } from '@angular/material/table';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import {NgModule} from '@angular/core';
@@ -22,7 +23,8 @@ import {NgModule} from '@angular/core';
     MatTableModule,
     MatInputModule,
     MatSelectModule,
-    MatRadioModule
+    MatRadioModule,
+    MatStepperModule
   ],
   exports: [
     MatSidenavModule,
@@ -34,7 +36,8 @@ import {NgModule} from '@angular/core';
     MatTableModule,
     MatInputModule,
     MatSelectModule,
-    MatRadioModule
+    MatRadioModule,
+    MatStepperModule
   ]
 })
 
