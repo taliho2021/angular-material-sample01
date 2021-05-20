@@ -5,19 +5,21 @@ import { BrowserModule } from '@angular/platform-browser';
 import { DashboardModule } from './dashboard/dashboard.module';
 import { DataService } from './data/data.service';
 import { EntryMasterComponent } from './entry-master/entry-master.component';
+import { EntrySummaryComponent } from './entry-summary/entry-summary.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { InvoiceHeaderComponent } from './invoice-header/invoice-header.component';
 import { MaterialModule } from './material.module';
 import { NgModule } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
-import { EntrySummaryComponent } from './entry-summary/entry-summary.component';
+import { WelcomeComponent } from './welcome/welcome.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EntryMasterComponent,
     InvoiceHeaderComponent,
-    EntrySummaryComponent
+    EntrySummaryComponent,
+    WelcomeComponent
   ],
   imports: [
     BrowserModule,

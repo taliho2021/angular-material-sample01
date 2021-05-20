@@ -1,3 +1,4 @@
+import {MatBadgeModule} from '@angular/material/badge';
 import  { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
@@ -24,7 +25,8 @@ import {NgModule} from '@angular/core';
     MatInputModule,
     MatSelectModule,
     MatRadioModule,
-    MatStepperModule
+    MatStepperModule,
+    MatBadgeModule
   ],
   exports: [
     MatSidenavModule,
@@ -37,7 +39,8 @@ import {NgModule} from '@angular/core';
     MatInputModule,
     MatSelectModule,
     MatRadioModule,
-    MatStepperModule
+    MatStepperModule,
+    MatBadgeModule
   ]
 })
 
