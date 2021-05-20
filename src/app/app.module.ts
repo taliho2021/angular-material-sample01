@@ -10,12 +10,14 @@ import { InvoiceHeaderComponent } from './invoice-header/invoice-header.componen
 import { MaterialModule } from './material.module';
 import { NgModule } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
+import { EntrySummaryComponent } from './entry-summary/entry-summary.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EntryMasterComponent,
-    InvoiceHeaderComponent
+    InvoiceHeaderComponent,
+    EntrySummaryComponent
   ],
   imports: [
     BrowserModule,
