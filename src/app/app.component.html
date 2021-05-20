@@ -40,13 +40,13 @@
                  </a>
             </li>
             <li>
-              <a >
+              <a routerLink="/" >
                   <mat-icon class="icon">home</mat-icon>
                   <span class="label">Home</span>
               </a>
             </li>
             <li>
-                <a>
+                <a routerLink="/dashboard">
                     <mat-icon class="icon">dashboard</mat-icon>
                     <span class="label">Dashboard</span>
                 </a>
@@ -61,6 +61,8 @@
      </div>
     </mat-toolbar>
     <main>
+      <router-outlet></router-outlet>
+      
     </main>
   </mat-sidenav-content>
 </mat-sidenav-container>
